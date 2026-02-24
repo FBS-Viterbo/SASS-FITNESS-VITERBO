@@ -68,4 +68,16 @@
   }
 }
 
-
+.homeTrainer {
+  padding: 4rem 0;
+  &__title {
+    @include between;
+    margin-bottom: 2rem;
+    h2 {
+      max-width: 40rem;
+    }
+  }
+  &__cards {
+    @include gridFixed(3, 1rem);
+  }
+}
